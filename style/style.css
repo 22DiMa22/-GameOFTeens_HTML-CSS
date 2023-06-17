@@ -168,7 +168,13 @@ nav {
     margin: auto;
 }
 
+.button:hover{
+    background-color: orange;
+}
 
+h4:hover{
+    color: #000000;
+}
             /* федик */
 
 .price-title {
