@@ -1,12 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Italiana&family=Montserrat:wght@400;500;600;700;800;900&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #ffffff;
     padding: 0;
     margin: 0;
+    background-color: #faf0e3;
 }
 
                         /* сирбул */
+
+.button {
+    border-radius: 10px;
+    border: 0;
+    background-color: #00ffbf;
+}
+
+.button:hover {
+    color:  rgb(2, 158, 255) ;
+}
 
 .food-first{
     height: 250px;
@@ -99,37 +110,197 @@ body {
 
 .title{
     color: white;
+    text-align: center;
 }
 
 .text, h4{
     color: white;
+    text-align: center;
 }
 
-.header-logo{
-    color: rgb(255, 255, 255);
+.header-logo {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Rubik Iso';
+    padding-left: 60px;
+}
+
+nav {
+    justify-content: space-between;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    font-size: 23px;
+    display: flex;
+    padding-right: 60px;
+}
+
+.header-link {
+    margin-left: 50px;
+    color: #cac9c9;
+    transition: .5s;
+}
+
+.header-link:hover {
+    color: #fff;
 }
 
 .like{
-    color: rgb(255, 255, 127);
+    color: rgb(2, 158, 255);
 }
 
 .tables{
-    color: white;
+    background-color: #232323;
+    color: #fff;
+    font-size: 22px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 50px;
+    margin-left: 570px;
+    margin-top: 40px;
 }
 
+.menu-container {
+    width: 1300px;
+    background-color: #232323;
+    margin: auto;
+}
 
 
             /* федик */
 
+.price-title {
+    padding: 0;
+    margin: 10;
+    text-align: center;
+    font-size: 60px;
+}
 
-.about-img {
-    width: 330px;
-    height: 190px;
+.price-list {
+    display: flex;
+}
+
+.price-text {
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 20%;
+    border: dashed #232323
+}
+
+.price-subtitle {
+    font-size: 30px;
+    border-radius: 20%;
+    border: dashed #232323;
+    padding: 5px;
+    margin: 10px;
+    
+}
+
+
+.about-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.about-text {
+    width: 270px;
+    text-align: center;
 }
 
 .about-container {
-    display: flex;
+    margin-top: 15px;
+    height: 280px;
+    background-color: rgb(2, 158, 255);
+    border-radius: 10px;
 }
+
+.about-title {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.time-subtitle {
+    font-size: 20px;
+}
+
+.time-discription {
+    line-height: 40px;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 34px;
+    margin-left: 30px;
+}
+
+.time-text {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 30px;
+    border: dashed #232323;
+    border-radius: 15px;
+}
+
+.time-list {
+    display: flex;
+    justify-content: center;
+}
+
+
+.time-description {
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 20%;
+    border: dashed #232323;
+    border-radius: 10%;
+}
+
+.time-subtitle {
+    padding: 0;
+    margin: 20px 20px  5px  20px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.about-img {
+    width: 300px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.about-link {
+    display: block;
+    text-align: center;
+    color: rgb(2, 158, 255);
+    padding-left: 15px;
+}
+
+.about-subtitle {
+    text-align: center;
+}
+
+.about-item:nth-child(2) {
+    padding-left: 23px ;
+}
+
+.about-item:nth-child(3) {
+    padding-left: 23px ;
+}
+
+.about-item:nth-child(4) {
+    padding-left: 23px ;
+}
+
+
 
 .about-text {
     margin-left: 30px;
@@ -140,9 +311,6 @@ body {
     display: flex;
 }
 
-.time-text {
-   margin-left: 30px;
-}
 
 
 
@@ -152,13 +320,15 @@ body {
     background-color: #676767;
 }
 
+
  .personal-title {
+    padding-top: 40px;
     font-size: 56px;
     text-align: center;
  }
 
 .personal-section-img {
-    paddingi-left: 30px ;
+    padding-left: 30px ;
 }
 
  .personal-list {
@@ -211,7 +381,7 @@ header {
 .header-container {
     width: 1300px;
     background-color: #232323;
-    height: 100px;
+    height: 80px;
 }
 
  .container-footer {
